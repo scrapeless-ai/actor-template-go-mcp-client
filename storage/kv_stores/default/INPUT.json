@@ -1,0 +1,12 @@
+{
+  "url": "http://localhost:8848/mcp",
+  "actor": "scraper.google.trends",
+  "proxy_country": "US",
+  "params": {
+    "q": "Mercedes-Benz,BMW X5",
+    "data_type": "interest_over_time",
+    "date": "today 1-m",
+    "hl": "en-sg",
+    "tz": "-480"
+  }
+}

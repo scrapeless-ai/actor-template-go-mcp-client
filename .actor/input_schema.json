@@ -1,0 +1,47 @@
+{
+  "title": "mcp-template-client",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "url": {
+      "title": "mcp server client url",
+      "type": "string",
+      "description": "The mcp server client url.",
+      "default": "https://www.scrapeless.com/"
+    },
+    "actor": {
+      "title": "actor name",
+      "type": "string",
+      "description": "actor name.",
+      "default": "scraper.google.trends"
+    },
+    "proxy_country": {
+      "title": "proxy country",
+      "type": "string",
+      "description": "proxy country.",
+      "default": "US"
+    },
+    "params": {
+      "type": "object",
+      "properties": {
+        "q": {
+          "type": "string"
+        },
+        "data_type": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "hl": {
+          "type": "string"
+        },
+        "tz": {
+          "type": "string"
+        }
+      },
+      "required": ["q"]
+    }
+  },
+  "required": ["url","actor","proxy_country","params"]
+}

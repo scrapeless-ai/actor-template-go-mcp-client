@@ -1,0 +1,10 @@
+{
+  "actorSpecification": 1,
+  "name": "mcp-template-client",
+  "version": "v0.0.1",
+  "avatarUrl": "https://avatars.githubusercontent.com/u/206795382?s=48&v=4",
+  "defaultRunOptions": {
+    "timeout": 3600,
+    "memory": 1024
+  }
+}
